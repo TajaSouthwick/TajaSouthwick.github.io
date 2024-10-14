@@ -3219,3 +3219,22 @@ input, select, textarea {
 			}
 
 	}
+
+.folio-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.folio-column {
+  flex: 50%;
+	width: 100px;
+	height: auto;
+  padding: 0 4px;
+}
+
+.folio-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
